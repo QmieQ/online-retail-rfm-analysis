@@ -1,0 +1,64 @@
+{
+  "engine": "MySQL",
+  "version": "8.0.46",
+  "passed": true,
+  "checks": [
+    {
+      "check": "cleaning_counts",
+      "pandas_rows": 5,
+      "mysql_rows": 5,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "retained_rows",
+      "pandas_rows": 524878,
+      "mysql_rows": 524878,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "monthly",
+      "pandas_rows": 13,
+      "mysql_rows": 13,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "orders",
+      "pandas_rows": 19960,
+      "mysql_rows": 19960,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "products",
+      "pandas_rows": 3900,
+      "mysql_rows": 3900,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "rfm_base",
+      "pandas_rows": 4338,
+      "mysql_rows": 4338,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "rfm_scores_segments",
+      "pandas_rows": 4338,
+      "mysql_rows": 4338,
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "check": "signed_monthly",
+      "pandas_rows": 13,
+      "mysql_rows": 13,
+      "passed": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "note": "SQL 与 pandas 共用类型规范化输入及分位点；独立去重、筛选、聚合、评分。"
+}

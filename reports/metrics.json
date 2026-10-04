@@ -1,0 +1,48 @@
+{
+  "raw_rows": 541909,
+  "raw_duplicates": 5268,
+  "normalized_duplicates": 5268,
+  "clean_rows": 524878,
+  "orders": 19960,
+  "customers": 4338,
+  "sales_gbp": 10642110.804,
+  "signed_gbp": 9748131.074,
+  "identified_sales_gbp": 8887208.894,
+  "unidentified_rows": 132186,
+  "unidentified_sales_gbp": 1754901.91,
+  "merchandise_sales_gbp": 10246820.87,
+  "merchandise_codes": 3900,
+  "median_order_gbp": 303.3,
+  "p99_order_gbp": 4821.165399999995,
+  "aov_under_p99": 434.2368387651822,
+  "high_order_count": 200,
+  "high_order_sales_share": 0.1937201094753796,
+  "repeat_customer_share": 0.6558321807284463,
+  "top20_customer_sales_share": 0.7468374942194759,
+  "top10_product_share": 0.09438678222936477,
+  "products_for_80pct": 824,
+  "date_min": "2010-12-01 08:26:00",
+  "date_max": "2011-12-09 12:50:00",
+  "reference_date": "2011-12-10",
+  "thresholds": {
+    "recency_days": [
+      13.800000000000182,
+      33.0,
+      72.0,
+      180.0
+    ],
+    "frequency": [
+      1.0,
+      2.0,
+      3.0,
+      6.0
+    ],
+    "monetary_units": [
+      2493440.000000001,
+      4874120.000000001,
+      9333480.0,
+      20550500.000000004
+    ]
+  },
+  "aov_gbp": 533.1718839679359
+}
